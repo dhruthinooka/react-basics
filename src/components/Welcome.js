@@ -7,8 +7,8 @@
 
 
 // Functional Component using ES6 arrow function
-const Welcome = () => {
-    return <h1>Welcome, Dhruthi NOOKA</h1>
+const Welcome = (props) => {
+    return <h1>Welcome, {props.name}</h1>
 }
 
 export default Welcome
